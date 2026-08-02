@@ -1,0 +1,32 @@
+Problem 1.1:
+
+Difficulty Faced:
+The main difficulty was understanding how to rotate the array elements according to the given number of hours without losing any data. It was also challenging to handle cases where the number of hours was greater than the number of items.
+
+Solution:
+I solved this problem by using the modulo (%) operator to reduce the number of rotations (h = h % n). Then, I created a temporary array and used the formula (i + h) % n to calculate the correct index for each element. This ensured that the array was rotated correctly and all items were displayed in the proper circular order without overwriting the original data.
+
+Result:
+The program successfully rotates the display order based on the given hours and prints the correct final arrangement of items.
+
+Problem 1.2:
+
+Difficulty Faced:
+The main difficulty was counting how many times each element appeared in the array. It was also challenging to compare every element with the remaining elements without missing any repeated values.
+
+Solution:
+I solved this problem by using two nested loops. The outer loop selected one element at a time, while the inner loop compared it with the remaining elements in the array. A counter variable was used to count the number of occurrences. If the count was greater than one, the program displayed that the element was repeated along with the number of times it appeared.
+
+Result:
+The program successfully identifies the repeated elements in the array and displays their frequency.
+
+Problem 1.3:
+
+Difficulty Faced:
+The main difficulty was identifying where each word starts and ends while scanning the sentence. It was also challenging to keep track of the longest word and correctly store its position for displaying it later.
+
+Solution:
+I solved this problem by traversing the sentence character by character. Whenever a space was encountered, I compared the length of the current word with the longest word found so far. If the current word was longer, I updated the longest length and stored its ending index. After checking the entire sentence, I printed the longest word using its stored position and length.
+
+Result:
+The program successfully finds and displays the longest word in the given sentence.
