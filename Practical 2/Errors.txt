@@ -1,0 +1,21 @@
+Problem 2.1:
+
+Difficulty Faced:
+The main difficulty was implementing the recursive search function correctly. It was challenging to understand the base case, the recursive call, and how the function continues searching until the target license plate is found or the end of the array is reached. Another challenge was ensuring that both the iterative and recursive methods produced the same result.
+
+Solution:
+I solved this problem by first implementing the iterative linear search to understand the search process. Then, I created a recursive function with a base case that returns -1 when the end of the array is reached. If the current element matches the target, the function returns its position; otherwise, it calls itself with the next index. This allowed both search methods to work correctly and return the same output.
+
+Result:
+The program successfully searches for the target license plate using both iterative and recursive linear search techniques and displays the position if found; otherwise, it informs the user that the license plate is not found.
+
+Problem 2.2:
+
+Difficulty Faced:
+The main difficulty was understanding how binary search repeatedly divides the search space into two halves. It was also challenging to implement the recursive binary search correctly by defining the base case and updating the left and right boundaries after each comparison. Another important challenge was ensuring that the input array remained sorted, as binary search only works on sorted data.
+
+Solution:
+I solved this problem by first implementing the iterative binary search using left, right, and middle indexes. Then, I created a recursive function that checks the middle element, returns the position if the target is found, or recursively searches the left or right half of the array. I also ensured that the book codes were entered in sorted order before performing the search.
+
+Result:
+The program successfully searches for the target book code using both iterative and recursive binary search methods. If the book code exists, it displays its position; otherwise, it informs the user that the book code is not found.
