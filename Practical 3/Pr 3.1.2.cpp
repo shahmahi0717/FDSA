@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Enter n:";
+    int n;
+    cin>>n;
+    int a[n];
+    cout<<"Enter the Array Elements:";
+    for(int i=0;i<n;i++)
+    {
+        cin>>a[i];
+    }
+    for(int i=0;i<n-1;i++)
+    {
+        int minindex=i;
+        for(int j=i+1;j<n;j++)
+        {
+            if(a[j]<a[minindex])
+            {
+                minindex=j;
+            }
+        }
+        if(minindex!=i)
+        {
+             int temp = a[i];
+             a[i] = a[minindex];
+             a[minindex] = temp;
+        }
+    }
+    for(int i=0;i<n;i++)
+    {
+        cout<<a[i]<<" ";
+    }
+}
