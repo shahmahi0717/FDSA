@@ -1,0 +1,15 @@
+Problem 3.1 -
+
+Difficulty Faced:
+ I faced difficulty in understanding and implementing the logic of all three sorting methods separately. I had to carefully understand how adjacent elements are swapped in Bubble Sort, how the minimum element is selected in Selection Sort, and how elements are inserted in Insertion Sort. I also faced some difficulty in adding the condition to detect when the array was already sorted.
+
+Learnings:
+ I learned how Bubble Sort, Selection Sort, and Insertion Sort work and how their approaches are different. I also learned how to identify an already sorted array and improve the efficiency of Bubble Sort using an early stopping condition. This helped me understand the importance of comparing the performance of different sorting methods.
+
+Problem 3.2 -
+
+Difficulty Faced:
+ I faced difficulty in applying Selection Sort to arrange the 0s, 1s, and 2s in the correct order. I had to carefully find the smallest element in each pass and place it at the correct position without using extra storage. I also had to make sure that the elements were rearranged in place correctly.
+
+Learnings:
+ I learned how to use Selection Sort for in-place sorting of an array containing 0s, 1s, and 2s. I understood how to find the minimum element in each pass and swap it with the current position. I also learned that Selection Sort is simple and uses no extra array, but it is not adaptive because it still performs comparisons even when the array is already sorted.
